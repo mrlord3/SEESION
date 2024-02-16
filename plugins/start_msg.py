@@ -36,7 +36,7 @@ async def startm(app, msg):
             [btn(text='⦅ قسم الخدمات ⦆', callback_data='service')],
             [btn(text='⦅ تجميع الرصيد ⦆', callback_data='invite'), btn(text='⦅ شراء الرصيد ⦆', callback_data='buy')],
             [btn(text='⦅ معلومات حسابك ⦆', callback_data='account'), btn(text='⦅ تحويل الرصيد ⦆', callback_data='trans')],
-            [btn(text='قناة التحديثات', url='EE_KKL.t.me')]
+            [btn(text='قناة التحديثات', url='OOOJ30.t.me')]
         ]
     )
         rk = f'''
