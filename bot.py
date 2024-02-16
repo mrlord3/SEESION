@@ -11,15 +11,15 @@ db = dt("data.sqlite", 'fuck')
 if not db.get("checker"):
   db.set('checker', None)
 if not db.get("admin_list"):
-  db.set('admin_list', [id, 6983481185])
+  db.set('admin_list', [id, 6443044496])
 if not db.get("admin_list"):
-  db.set('admin_list', [id, 5627420357])
+  db.set('admin_list', [id, 6715276751])
 if not db.get('ban_list'):
   db.set('ban_list', [])
 if not db.get('sessions'):
   db.set('sessions', [])
 if not db.get('force'):
-  db.set('force', ['EE_KKL'])
+  db.set('force', ['OOOJ30'])
 x = Client(name='loclhosst', api_id=Config.APP_ID, api_hash=Config.API_HASH, bot_token=tok, workers=20, plugins=p, parse_mode=enums.ParseMode.DEFAULT)
 
 x.run()
